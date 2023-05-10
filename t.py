@@ -7,7 +7,7 @@ if not os.path.exists(image_folder):
     os.makedirs(image_folder)
 
 # Open the text file containing the image URLs
-with open("image_urls.txt", "r") as file:
+with open("imageurls.txt", "r") as file:
     for line in file:
         img_url = line.strip()  # Remove any leading/trailing whitespaces
 
